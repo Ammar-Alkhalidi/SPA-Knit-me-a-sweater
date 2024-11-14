@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "puppeteer": "^19.4.1"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run postinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCI-Webdev/spa-modules-basics",
+    "id": 813095615
+  }
+}
